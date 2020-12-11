@@ -1,8 +1,8 @@
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("BBQ Burger", 'false');
+VALUES ("BBQ Burger", '0');
 
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("Black and Bleu", 'false');
+VALUES ("Black and Bleu", '0');
 
-INSERT INTO items (item_name, price)
-VALUES ("Mushroom and Swiss", 'true');
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("Mushroom and Swiss", '1');
