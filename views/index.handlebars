@@ -4,21 +4,24 @@
 
 <ul>
   {{#each burgers}}
+    {{#if devoured}}
+      {{> burgers/burger-block devoured=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+
+<h2>Eaten Burgers! Time for a nap!</h2>
+
+<ul>
+  {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burger-block devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Eaten Burgers! Time for a nap!</h2>
 
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
-    {{/if}}
-  {{/each}}
-</ul>
 
 <h2>Create a Burger</h2>
 <form class="create-form">
