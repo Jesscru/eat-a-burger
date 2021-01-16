@@ -1,20 +1,40 @@
+body {
+  text-align: center;
+}
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #f7cc95;
-  }
+    list-style-type: none;
+}
+
+.card {
+  width:50%;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  background-color: rgba(250, 206, 125, 0.897);
+}
+
+.add-burger {
+  background-color: rgb(68, 19, 19);
+}
   
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: rgb(166, 236, 248);
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: rgb(166, 236, 248);
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
   
