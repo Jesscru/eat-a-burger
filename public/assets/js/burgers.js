@@ -4,23 +4,16 @@ $(function() {
       var id = $(this).data("id");
       var newburger = $(this).data("newburger");
   
-      var newDevoured = {
+      var newBurgerState = {
         devoured: newburger
       };
   
-      var checkDev = {
-        devoured: $("[devoured=0]:checked").val()
-      };
-
       // Send the PUT request.
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
-        data: newDevoured
+        data: newBurgerState
       }).then(
         function() {
-          if (!checkDev) {
-            $(".change-devoured").css('visibility', 'hidden')
-          }
           console.log("changed devoured to", newburger);
           // Reload the page to get the updated list
           location.reload();
@@ -31,12 +24,12 @@ $(function() {
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
-
+  
       var newBurger = {
-        name: $("#burg").val().trim(),
-        devoured: $("[devoured=0]:checked").val().trim()
+        name: $("#burger").val().trim(),
+        sleepy: $("[name=sleepy]:checked").val().trim()
       };
-      
+  
       // Send the POST request.
       $.ajax("/api/burgers", {
         type: "POST",
