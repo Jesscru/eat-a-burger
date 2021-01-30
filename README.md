@@ -20,7 +20,7 @@
   
   The app is mostly used for fun, but it could certainly serve as a list compiler if the user would like. In general, the user is able to add a burger they might   enjoy eating. When they do so, the burger will be placed under the section of burgers that have yet to be eaten. When the user clicks that they'd like to eat     the burger, the burger will then move to the opposite, eaten side. The opposite will occur again if the user clicks the "noms" button. Below is a demo of the     app's function.
   
-  ![gif of eat-a-burger function](public/images/eat-burgers.gif)
+  ![gif of eat-a-burger function](public/assets/eat-burgers.gif)
   
   ## Credits 
   
