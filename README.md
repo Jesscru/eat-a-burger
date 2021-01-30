@@ -8,16 +8,23 @@
   
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Credits](#credits)
   * [License](#license)
   * [Contributing](#contributing)
   
   ## Installation
   
-  One can access the project via this link: https://ancient-beach-85682.herokuapp.com/
+  No installation necessary. One can access the project via this link: https://ancient-beach-85682.herokuapp.com/
   
   ## Usage 
   
-  The app is mostly used for fun, but it could certainly serve as a list compiler if the user would like. In general, the user is able to add a burger they might enjoy eating. When they do so, the burger will be placed under the section of burgers that have yet to be eaten. When the user clicks that they'd like to eat the burger, the burger will then move to the opposite, eaten side. The opposite will occur again if the user clicks the "noms" button. 
+  The app is mostly used for fun, but it could certainly serve as a list compiler if the user would like. In general, the user is able to add a burger they might   enjoy eating. When they do so, the burger will be placed under the section of burgers that have yet to be eaten. When the user clicks that they'd like to eat     the burger, the burger will then move to the opposite, eaten side. The opposite will occur again if the user clicks the "noms" button. Below is a demo of the     app's function.
+  
+  ![gif of eat-a-burger function](public/images/eat-burgers.gif)
+  
+  ## Credits 
+  
+  This app was created using [Handlebars](https://handlebarsjs.com/)
   
   ## License
   
@@ -25,7 +32,7 @@
   
   ## Contributing
   
-  If anyone would like to contribute to the project, they certainly may. Just email me at the address below. 
+  I welcome any ideas anyone might have to contribute to this project. Please reach me at the email below if you have suggestions or ideas you'd like to add to     the project.   
   
   ## Questions 
   
